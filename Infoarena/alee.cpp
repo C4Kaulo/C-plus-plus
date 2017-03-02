@@ -1,8 +1,10 @@
+#include "stdafx.h"
 #include <fstream>
 #include <queue>
 
 using namespace std;
-ifstream in("alee.in"); ofstream out("alee.out");
+ifstream in("input.txt");
+ofstream out("input.txt");
 
 struct dot
 {
