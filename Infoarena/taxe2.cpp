@@ -6,9 +6,8 @@ using namespace std;
 ifstream in("taxe2.in");
 ofstream out("taxe2.out");
 
-class dot
+struct dot
 {
-public:
   short i, j;
 
   dot operator +(dot b)
@@ -32,9 +31,8 @@ public:
   }
 };
 
-class matrix
+struct matrix
 {
-public:
   short tax, lee;
 };
 
